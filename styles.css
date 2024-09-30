@@ -1,0 +1,123 @@
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  color: #252222;
+  line-height: 1.2;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s ease;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  
+}
+body {
+  line-height: 1;
+}
+
+html {
+  font-size: 10px; 
+  width: 48rem; 
+  margin: 0 auto; 
+}
+
+.hero__title {
+ position: relative;
+  z-index: 1;
+  font-family: "Great Vibes", cursive;
+  padding: 4rem 0;
+  font-size: 6rem;
+  line-height: 1;
+  letter-spacing: 0.4rem;
+  font-weight: 400;
+  color: #000000;
+  width: 100%;
+  margin-left: 4.5rem;
+  text-shadow: 0.1rem 0.1rem 3rem rgba(255, 255, 255, 0.58);
+}
+
+.main__wrapper {
+  max-width: 60rem;
+  margin: 10px ;
+  overflow: hidden;
+}
+
+.hero__title img {
+  width: 4rem;
+  
+}
+.hero__title span {
+  
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+}
+
+.block2{
+  background-color: antiquewhite;
+  margin-bottom: 2rem;
+}
+.block2{
+  background-color: hsl(48, 64%, 92%);
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  padding: 4rem 3rem;
+}
+
+.zaproshenya_title {
+  
+  text-align: center;
+  line-height: 1;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  
+}
+
+.bible_text {
+  max-width: 48rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #111111;
+  font-family: "Marck Script", cursive;
+  font-size: 3.5rem;
+  text-shadow: 0.1rem 0.1rem 3rem rgba(255, 255, 255, 0.58);
+}
+.decor {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.decor__left {
+  width: 50rem;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.decor__right {
+  width: 50rem;
+  height: 0.1rem;
+  background-color: rgba(37, 27, 0, 0.4);
+}
